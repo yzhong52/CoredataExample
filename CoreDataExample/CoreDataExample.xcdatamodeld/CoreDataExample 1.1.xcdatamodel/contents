@@ -3,9 +3,12 @@
     <entity name="Person" syncable="YES">
         <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
     </entity>
+    <entity name="Student" parentEntity="Person" syncable="YES"/>
+    <entity name="Teacher" parentEntity="Person" syncable="YES"/>
     <elements>
-        <element name="Person" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Person" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Teacher" positionX="-63" positionY="0" width="128" height="45"/>
+        <element name="Student" positionX="-54" positionY="9" width="128" height="45"/>
     </elements>
 </model>
