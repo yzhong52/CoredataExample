@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B03990F1C8B74A200D0A200 /* CoreDataExample 1.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataExample 1.1.xcdatamodel"; sourceTree = "<group>"; };
 		4B6C2D8A1C8B71DE0037CF81 /* CoreDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6C2D8D1C8B71DE0037CF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B6C2D8F1C8B71DE0037CF81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -394,6 +395,7 @@
 				4B6C2DAC1C8B71DE0037CF81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B6C2DAD1C8B71DE0037CF81 /* Build configuration list for PBXNativeTarget "CoreDataExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +404,7 @@
 				4B6C2DAF1C8B71DE0037CF81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -409,6 +412,7 @@
 		4B6C2D941C8B71DE0037CF81 /* CoreDataExample.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				4B03990F1C8B74A200D0A200 /* CoreDataExample 1.1.xcdatamodel */,
 				4B6C2D951C8B71DE0037CF81 /* CoreDataExample.xcdatamodel */,
 			);
 			currentVersion = 4B6C2D951C8B71DE0037CF81 /* CoreDataExample.xcdatamodel */;
